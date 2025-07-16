@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+  <style>
+      .container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+       
+      }
+      .flower{
+        gap: 10px;
+             padding: 10px;
+             border-radius: 10px; 
+             box-shadow: 1px 0 2px 1px;
+      }
+
+      .flower img{
+        width: 100%;
+        border-radius: 10px;
+      }
+      /* Small device */
+      @media screen and (max-width:576px) {
+        .container{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .flower{
+            background-color: cornflowerblue;
+        }
+      }
+      /* medium device */
+      @media screen and (min-width:577px) and (max-width:992px) {
+        .container{
+            grid-template-columns: repeat(2,1fr);
+        }
+      }
+  </style>
+</head>
+<body>
+<!-- .container>.flower*12>img[src="img/images.jpg"]+h2{card-$}+p>{price:\$$00}+p>lorem15^btn{Buy Now} -->
+    <div class="container">
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-1</h2>
+            <p>
+                price:$100
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, delectus fugiat unde atque laborum officiis.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-2</h2>
+            <p>
+                price:$200
+                <p>Inventore, enim! Vero accusantium, ex possimus atque sunt nesciunt officia eos veritatis adipisci hic nulla?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-3</h2>
+            <p>
+                price:$300
+                <p>Quia reprehenderit, perferendis in similique quam unde, ratione, placeat aliquam rerum minima quisquam minus eos.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-4</h2>
+            <p>
+                price:$400
+                <p>Quae ex placeat obcaecati in officia, expedita perferendis nisi molestiae, dolore, sint velit assumenda  sint velit dolor?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-5</h2>
+            <p>
+                price:$500
+                <p>Magni, fuga possimus voluptas, obcaecati quis inventore praesentium, deserunt in quaerat cupiditate minus iusto mollitia.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-6</h2>
+            <p>
+                price:$600
+                <p>Tempora quae in provident, at alias laborum? Expedita eveniet quae quidem accusantium, doloremque facilis totam.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-7</h2>
+            <p>
+                price:$700
+                <p>Tempora non quae libero, sed molestias at a facilis sapiente! Quidem saepe pariatur asperiores alias?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-8</h2>
+            <p>
+                price:$800
+                <p>Quis perferendis, deleniti qui rerum dolores, incidunt similique voluptates aperiam, maiores facilis illum dolorum expedita?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-9</h2>
+            <p>
+                price:$900
+                <p>Veritatis qui officia repellat ea, esse, ad fuga ab libero aliquam praesentium assumenda, eaque facilis.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-10</h2>
+            <p>
+                price:$1000
+                <p>Et, provident ut eveniet ad aut libero obcaecati voluptas autem unde, dignissimos reprehenderit </p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-11</h2>
+            <p>
+                price:$1100
+                <p>Eos reiciendis omnis repudiandae eligendi! Facilis suscipit, sapiente iure obcaecati eaque beatae distinctio minima quia!</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="flower">
+            <img src="img/images.jpg" alt="">
+            <h2>card-12</h2>
+            <p>
+                price:$1200
+                <p>Dolore est vel dolorum, dolorem et aut pariatur rem excepturi, quae iusto atque quasi? Magnam!</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
